@@ -14,6 +14,7 @@ async def roll(
     roll = random.randint(1, size)
     await ctx.respond(f"1d{size} = {roll}")
 
+
 @arc.loader
 def loader(client: arc.GatewayClient) -> None:
     client.add_plugin(plugin)
