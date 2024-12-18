@@ -16,6 +16,7 @@ all_extensions = [
     for filename in os.listdir("./pathfinder_bot/extensions")
     if filename.endswith(".py")
 ]
+all_extensions.remove("pathfinder_bot.extensions.__init__")
 
 
 @client.include
