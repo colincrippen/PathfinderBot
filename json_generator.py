@@ -14,6 +14,6 @@ for filename in os.listdir(dir_path := f"./pathfinder_bot/data/{directory_name}"
 
 names = dict(sorted(names.items()))
 
-with open(f"{directory_name}_dict.txt", 'w') as file:
+with open(f"{directory_name}_dict.txt", "w") as file:
     file.write(str(names))
 print(str(names))

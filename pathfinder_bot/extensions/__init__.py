@@ -1,3 +1,20 @@
+ATTRIBUTE_NAMES = {
+    "str": "Strength",
+    "dex": "Dexterity",
+    "con": "Constitution",
+    "int": "Intelligence",
+    "wis": "Wisdom",
+    "cha": "Charisma",
+}
+
+PROFICIENCY_NAMES = {
+    0: "Untrained",
+    1: "Trained",
+    2: "Expert",
+    3: "Master",
+    4: "Legendary",
+}
+
 ANCESTRY_LIST = {
     "Anadi": "./pathfinder_bot/data/ancestries/anadi.json",
     "Android": "./pathfinder_bot/data/ancestries/android.json",
