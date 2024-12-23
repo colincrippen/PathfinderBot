@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 load_dotenv()
 intents = hikari.Intents.GUILD_MESSAGES | hikari.Intents.GUILD_MESSAGE_REACTIONS
 
-bot = hikari.GatewayBot(os.getenv("BOT_TOKEN", ""), intents=intents)
+bot = hikari.GatewayBot(os.getenv("DISCORD_TOKEN", ""), intents=intents)
 client = arc.GatewayClient(bot)
 
 client.load_extensions_from("./pathfinder_bot/extensions")
